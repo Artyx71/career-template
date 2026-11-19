@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "headline": "",
+  "summary": "",
+  "email": "",
+  "phone": "",
+  "telegram": "",
+  "github": "",
+  "location": "",
+  "education": "",
+  "languages": "",
+  "preferences": {
+    "remote_from_russia": null,
+    "relocation": null,
+    "mandatory_office_visits": null,
+    "target_roles": [],
+    "seniority": [],
+    "locations": [],
+    "full_time": null,
+    "min_monthly_net": null,
+    "currency": "",
+    "contract_types": []
+  },
+  "experience": [],
+  "skills": {}
+}

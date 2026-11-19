@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+*.sqlite3*
+.env
+*.log
+career/profile.json
+career/evidence.json
+private/
+*-credentials.json
+client_secret*.json

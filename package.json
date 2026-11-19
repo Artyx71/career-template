@@ -1,0 +1,11 @@
+{
+  "name": "career-template",
+  "private": true,
+  "scripts": {
+    "check:browser": "node scripts/check-browser.cjs",
+    "check:hh": "node tests/check-hh.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}

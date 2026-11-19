@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "react-state": ["React · State as a Snapshot", "https://react.dev/learn/state-as-a-snapshot"],
+    "fetch": ["MDN · Using Fetch", "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"],
+    "css-layout": ["MDN · Basic concepts of flexbox", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox"]
+  },
+  "first_30": ["DEMO-REACT-STATE", "DEMO-JS-FETCH", "DEMO-CSS-LAYOUT"],
+  "questions": [
+    {
+      "id": "DEMO-REACT-STATE",
+      "category": "React",
+      "priority": "P0",
+      "question": "Почему значение состояния, прочитанное сразу после вызова функции обновления, остаётся прежним?",
+      "answer_outline": "Обработчик видит состояние из своего рендера. Вызов обновления ставит изменение в очередь, а новое значение доступно в следующем рендере.",
+      "follow_up": "Как трижды увеличить счётчик за один вызов обработчика?",
+      "sources": ["react-state"]
+    },
+    {
+      "id": "DEMO-JS-FETCH",
+      "category": "JavaScript",
+      "priority": "P0",
+      "question": "Как отличить сетевой отказ fetch от ответа сервера с HTTP 404?",
+      "answer_outline": "Сетевой отказ отклоняет промис. HTTP 404 возвращает Response, поэтому проверьте response.ok или response.status.",
+      "follow_up": "Где обработать ошибку разбора JSON?",
+      "sources": ["fetch"]
+    },
+    {
+      "id": "DEMO-CSS-LAYOUT",
+      "category": "CSS",
+      "priority": "P0",
+      "question": "Как выровнять элементы по основной и поперечной осям Flexbox?",
+      "answer_outline": "Основную ось определяет flex-direction. По ней работает justify-content. По поперечной оси работают align-items и align-self.",
+      "follow_up": "Что меняется при flex-direction: column?",
+      "sources": ["css-layout"]
+    }
+  ]
+}
